@@ -1,0 +1,71 @@
+# Day 02 - 10 June 2026
+
+## Tasks Completed
+
+### System Architecture Design
+- Designed the high-level architecture for ConnectMeet AI.
+- Identified major system components:
+  - React Frontend
+  - FastAPI Backend
+  - PostgreSQL Database
+  - WebRTC Communication Layer
+  - Socket.IO Signaling Server
+  - AI Processing Layer (Whisper, LangChain, Ollama)
+  - MinIO Storage
+
+### Database Design
+- Identified core entities required for the platform.
+- Designed relationships between:
+  - Users
+  - Meetings
+  - Participants
+  - Messages
+  - Files
+  - AI Summaries
+
+### Technology Research
+- Studied WebRTC communication flow.
+- Researched integration of Whisper with meeting recordings.
+- Analyzed AI summarization workflow using LangChain and Ollama.
+
+---
+
+## Status
+
+Architecture Design: Completed
+
+Database Design: In Progress
+
+ER Diagram: In Progress
+
+---
+
+## Challenges Faced
+
+- Understanding peer-to-peer communication in WebRTC.
+- Designing scalable relationships for meeting participants and meeting history.
+
+---
+
+## Solutions
+
+- Studied WebRTC architecture documentation.
+- Created preliminary entity relationship mappings before designing the database schema.
+
+---
+
+## Technical Learnings
+
+- WebRTC architecture and signaling process.
+- FastAPI project structure.
+- AI meeting transcription pipeline.
+- Database normalization concepts.
+
+---
+
+## Next Day Plan
+
+- Complete ER Diagram.
+- Prepare Architecture Diagram.
+- Design UI Wireframes.
+- Create project documentation.
